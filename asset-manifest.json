@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Defi-landing-Page/static/css/main.50466cbe.css",
+    "main.js": "/Defi-landing-Page/static/js/main.ccd1e000.js",
+    "static/media/video.mp4": "/Defi-landing-Page/static/media/video.a2703484bb9eee7d0c2e.mp4",
+    "static/media/terminal.png": "/Defi-landing-Page/static/media/terminal.008c23b28e62ddbd576c.png",
+    "index.html": "/Defi-landing-Page/index.html",
+    "main.50466cbe.css.map": "/Defi-landing-Page/static/css/main.50466cbe.css.map",
+    "main.ccd1e000.js.map": "/Defi-landing-Page/static/js/main.ccd1e000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50466cbe.css",
+    "static/js/main.ccd1e000.js"
+  ]
+}
