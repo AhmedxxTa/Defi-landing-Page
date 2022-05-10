@@ -17,9 +17,9 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <ul className="flex text-white items-center cursor-pointer">
-            <li className="opacity-80 hover:opacity-100">Platform</li>
-            <li className="opacity-80 hover:opacity-100">Developers</li>
-            <li className="opacity-80 hover:opacity-100">Community</li>
+            <li className="opacity-80 hover:opacity-100"><a href="#platform">Platform</a></li>
+            <li className="opacity-80 hover:opacity-100"><a href="#developers">Developers</a></li>
+            <li className="opacity-80 hover:opacity-100"><a href="#community">Community</a></li>
             <li className="opacity-80 hover:opacity-100"><a href="#about">About</a></li>
             <button className="bg-gradient-to-r from-primaryPurple to-primaryBlue ml-4 py-3 px-7 rounded-3xl active:scale-[0.97]">Use Defi</button>
           </ul>
@@ -35,9 +35,9 @@ const Navbar = () => {
 
         <div className={nav ? "w-full h-screen bg-black text-white absolute top-[90px] left-0 flex justify-center items-center text-center duration-500 ease-in-out" : "absolute -left-full top-[-90px]"}>
           <ul>
-            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer">Platform</li>
-            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer">Developers</li>
-            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer">Community</li>
+            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer"><a href="#platform">Platform</a></li>
+            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer"><a href="#developers">Developers</a></li>
+            <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer"><a href="#community">Community</a></li>
             <li className="text-2xl opacity-80 hover:opacity-100 cursor-pointer"><a href="#about">About</a></li>
             <button className="bg-gradient-to-r from-primaryPurple to-primaryBlue m-8 py-3 px-7 rounded-3xl active:scale-[0.97]">Use Defi</button>
           </ul>
