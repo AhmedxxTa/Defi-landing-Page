@@ -1,4 +1,3 @@
-# Live Demo
 created with react, tailwindCss 
 
 # Getting Started with Create React App
