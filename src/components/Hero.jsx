@@ -1,16 +1,10 @@
 import React from "react";
-import heroVid from "../assets/video.mp4";
+import landingImg from '../assets/landing.png';
 
 const Hero = () => {
   return (
     <div className="w-full h-[90vh] top-[90px]">
-      <video
-        className="object-cover h-full w-full absolute opacity-95 -z-10"
-        src={heroVid}
-        autoPlay
-        loop
-        muted
-      />
+      <img className="object-cover h-full w-full absolute opacity-95 -z-10" src={landingImg} alt="landing" />
 
       <div className="w-full h-[90%] flex flex-col justify-center items-center text-center text-white px-4">
         <h1>Decentralized</h1>
